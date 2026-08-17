@@ -1,0 +1,6 @@
+flask
+flask-cors
+fonttools
+ufo2ft
+ufolib2
+brotli
