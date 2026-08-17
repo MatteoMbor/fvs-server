@@ -11,7 +11,9 @@ import io, os, tempfile
 
 app = Flask(__name__)
 CORS(app)
-
+@app.route('/')
+def salute():
+    return 'FVS Font Server attivo ✓'
 
 def add_contour(contour, pen, asc):
     # coordinate del sito con la y ribaltata (il font la vuole in su)
